@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="icon_btn_callresiver">&#x61;</string>
+    <string name="icon_btn_home">&#x62;</string>
+    <string name="icon_btn_home_s">&#x63;</string>
+    <string name="icon_btn_payment">&#x64;</string>
+    <string name="icon_btn_payment_s">&#x65;</string>
+    <string name="icon_btn_profile">&#x66;</string>
+    <string name="icon_btn_profile_s">&#x67;</string>
+    <string name="icon_btn_rate">&#x68;</string>
+    <string name="icon_btn_rate_s">&#x69;</string>
+    <string name="icon_ico_clock">&#x6a;</string>
+    <string name="icon_ico_prfl_card">&#x6b;</string>
+    <string name="icon_ico_prfl_credit">&#x6c;</string>
+    <string name="icon_ico_prfl_email">&#x6d;</string>
+    <string name="icon_ico_prfl_gif">&#x6e;</string>
+    <string name="icon_ico_prfl_help">&#x6f;</string>
+    <string name="icon_ico_prfl_phone">&#x70;</string>
+    <string name="icon_ico_prfl_signout">&#x71;</string>
+    <string name="icon_ico_prfl_waybill">&#x72;</string>
+
+
+
+
+</resources>

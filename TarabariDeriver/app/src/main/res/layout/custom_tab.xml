@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <co.tara.tarabari.driver.myview.MyTextShape2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgTab"
+android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        />
+    <co.tara.tarabari.driver.myview.MyTextView
+        android:id="@+id/tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgTab"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+android:textSize="10sp"
+        android:text="aaaa"
+        android:textColor="#ffffff" />
+</RelativeLayout>

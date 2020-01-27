@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <co.tara.tarabari.driver.myview.MyButtonShape
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/google_plus_btn"
+            android:text="@string/google_plus"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <android.support.design.widget.TextInputLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/edt_phonenum"
+                android:hint="@string/phonenum"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/password" />
+        </android.support.design.widget.TextInputLayout>
+        <co.tara.tarabari.driver.myview.MyButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="@string/login"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_login"
+            android:textColor="#ffffff"
+            android:background="@drawable/welcome_register_btn"
+            android:layout_gravity="center"
+            />
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_password"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/test"
+            android:text="message"
+            />
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

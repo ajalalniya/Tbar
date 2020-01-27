@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/AppTheme2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:max="100"
+    android:progress="0"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_marginTop="-7dp"
+    android:id="@+id/prog_cancle"
+    />
+
+    <co.tara.tarabari.driver.myview.MyTextView
+        android:id="@+id/lbl_trip_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="درخواست سفر"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_div1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/lbl_trip_request"
+        android:background="@color/divide" />
+
+    <LinearLayout
+        android:id="@+id/lay_price"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lbl_trip_request"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4"
+                    android:src="@drawable/ico_money" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.6">
+
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_mablagh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/lbl_daryafti"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/lbl_daryafti"
+                        android:text="13/500"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/txt_mablagh"
+                        android:layout_toLeftOf="@+id/txt_mablagh"
+                        android:text="تومان" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/lbl_daryafti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_mablagh"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10dp"
+                        android:text="مبلغ دریافتی" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/divide" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4"
+                    android:src="@drawable/ico_time" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.6">
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/lbl_fasele"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="10dp"
+
+                        android:text="5"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/txt_time"
+                        android:layout_toLeftOf="@+id/txt_time"
+                        android:text="دقیقه" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/lbl_fasele"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_time"
+
+                        android:layout_centerHorizontal="true"
+                        android:text="فاصله زمانی" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_div2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/lay_price"
+        android:background="@color/divide" />
+
+    <RelativeLayout
+        android:id="@+id/rel_orgin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_div2">
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/lbl_orgin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="مبدا:"
+            android:textColor="@color/blue" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_orgin"
+            android:layout_alignBottom="@+id/lbl_orgin"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/lbl_orgin"
+            android:text="نیلوفر -شهید قندی، عشقیار"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_div3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rel_orgin"
+        android:layout_marginRight="40dp"
+        android:background="@color/divide" />
+
+    <RelativeLayout
+        android:id="@+id/rel_distination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_div3"
+        android:layout_alignBottom="@+id/txt_div3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/lbl_distination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="مقصد:"
+            android:textColor="@color/green" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_distination"
+            android:layout_alignBottom="@+id/lbl_distination"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/lbl_distination"
+            android:text="کاظم آباد - بنی هاشم، صیاد شیرازی"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_div4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rel_distination"
+        android:layout_marginRight="40dp"
+        android:background="@color/divide" />
+
+    <RelativeLayout
+        android:id="@+id/rel_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rel_distination">
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/lbl_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="اطلاعات بار:"
+            android:textColor="@color/yellow" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/txt_bar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lbl_detail"
+            android:layout_marginRight="20dp"
+            android:text="تلویزیون خارجی"
+            android:textColor="#000000" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/txt_bar_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_bar_name"
+            android:layout_marginRight="20dp"
+            android:text="20 کیلو"
+            android:textColor="#000000" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/txt_bar_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_bar_weight"
+            android:layout_marginRight="20dp"
+            android:text="خیلی خارجیه مواظبش باشید"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgMap"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/rel_detail"
+        android:scaleType="fitXY"
+        android:src="@drawable/staticmap" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgMap"
+        android:layout_marginTop="10dp">
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="تایید"
+
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <co.tara.tarabari.driver.myview.MyTextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/btn_accept"
+            android:text="لغو"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

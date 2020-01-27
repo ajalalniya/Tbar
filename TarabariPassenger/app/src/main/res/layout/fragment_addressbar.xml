@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/view2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp">
+
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:id="@+id/sourceAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toLeftOf="@+id/circle_shape"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:text="سلام"
+
+            />
+
+        <co.tara.tarabari.passenger.myview.MyTextShape
+            android:id="@+id/circle_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:text="@string/circleshape"
+            android:textColor="@color/circle_shape"
+
+            />
+
+        <ProgressBar
+            android:id="@+id/loadSourceAddress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/carddistination"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#35aaaaaa"
+            android:orientation="vertical"></LinearLayout>
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:id="@+id/distinationAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:text="سلام"
+
+            />
+
+        <co.tara.tarabari.passenger.myview.MyTextShape
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/pinshape"
+            android:textColor="@color/welcome_color"
+
+            />
+
+        <ProgressBar
+            android:id="@+id/loadDistinationAddress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/carddistination2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#35aaaaaa"
+            android:orientation="vertical"></LinearLayout>
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:id="@+id/distinationAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00ffffff"
+            android:gravity="center"
+            android:text="سلام"
+
+            />
+
+        <co.tara.tarabari.passenger.myview.MyTextShape
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/pinshape"
+            android:textColor="@color/welcome_color"
+
+            />
+
+        <ProgressBar
+            android:id="@+id/loadDistinationAddress2"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

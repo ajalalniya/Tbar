@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+     >
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:id="@+id/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:text="کد تخفیف"
+            android:textSize="20dp" />
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/view4"
+            android:layout_alignRight="@+id/view4"
+            android:layout_below="@+id/view4"
+            android:text="کد تخفیف خود را اینجا وارد کنید"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingTop="3dp"
+            android:src="@drawable/ico_discount"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#5a000000"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.70">
+
+       <co.tara.tarabari.passenger.myview.MyEditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="20dp"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10">
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="تایید کد"
+            android:id="@+id/myButton"
+            android:background="#ffffff"/>
+
+
+        <co.tara.tarabari.passenger.myview.MyTextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="انصراف"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/myButton"
+            android:layout_toEndOf="@+id/myButton"
+            android:id="@+id/myButton2"
+            android:background="#ffffff"
+            android:textColor="#d8d9da"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

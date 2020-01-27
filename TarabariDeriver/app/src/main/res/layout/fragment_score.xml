@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:theme="@style/AppTheme2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/sha_star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fastar" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_numbers_star1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@id/sha_star1"
+                        android:text="5" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/txt_numbers_star1"
+                        android:layoutDirection="rtl"
+                        android:progress="40" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/sha_star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fastar" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_numbers_star2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@id/sha_star2"
+                        android:text="4" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/txt_numbers_star2"
+                        android:layoutDirection="rtl"
+                        android:progress="40" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/sha_star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fastar" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_numbers_star3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@id/sha_star3"
+                        android:text="3" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/txt_numbers_star3"
+                        android:layoutDirection="rtl"
+                        android:progress="100" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/sha_star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fastar" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_numbers_star4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@id/sha_star4"
+                        android:text="2" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/txt_numbers_star4"
+                        android:layoutDirection="rtl"
+                        android:progress="30" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/sha_star5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fastar" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_numbers_star5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@id/sha_star5"
+                        android:text="1" />
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/txt_numbers_star5"
+                        android:layoutDirection="rtl"
+                        android:progress="20" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <co.tara.tarabari.driver.myview.MyTextView
+                    android:id="@+id/myTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4.0"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp" />
+
+
+                <RatingBar
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rating="3" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:id="@+id/lbl_shape_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/fauser" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/lbl_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/lbl_shape_count"
+                        android:text="مجموع 5258"
+                        android:textSize="15sp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.66"
+        android:background="@color/background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+<co.tara.tarabari.driver.myview.MyTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="نکته"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/green"
+    android:textSize="20sp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/myTextView20" />
+<co.tara.tarabari.driver.myview.MyTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="کیفیت سفر و جلب رضایت مشتری از ارکان اصلی سوییفت است. بدین علت حساب سفیرهایی که میانگین امتیاز (عدد قابل مشاهده در صفحه امتیاز) آنها کمتر از 8 باشد مسدود خواهد شد. برای گرفتن امتیاز بالا با مسافرها محترمانه برخورد کنید، همواره از گزینه مسیر یابی استفاده نمایید و خودرو خود را تمیز نگاه دارید"
+    android:layout_below="@+id/myTextView20"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/myTextView22" />
+                <co.tara.tarabari.driver.myview.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="خطوط قرمز سوییفت"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/red"
+                    android:layout_below="@+id/myTextView22"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/myTextView23" />
+                <co.tara.tarabari.driver.myview.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="رخداد موارد زیر منجر به مسدود شدن حساب کاربری به صورت دائم، جلوگیری از پرداخت اعتبار و طرح شکایت از شما در مراجع قضایی می شود  مشاجره با مسافر/ توهین به مسافر- پیاده کردن مسافر در میانه راه- ایجاد سفر های غبر واقعی سفر های تکراری با یک مسافر- ...و- :موارد زیر باعث قطع همکاری با شما می گردد تماس با مسافر بعد از سفر- توهین به سوییفت و مشاجره با پشتیبان در حضور مسافر-"
+                    android:layout_below="@+id/myTextView23"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

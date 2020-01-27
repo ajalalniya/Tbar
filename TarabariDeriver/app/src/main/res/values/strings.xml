@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TbarDriver</string>
+
+    <string name="home">خانه</string>
+    <string name="earnings">درآمد</string>
+    <string name="score">امتیاز</string>
+    <string name="accont">حساب</string>
+    <string name="today_trips">سفرهای امروز</string>
+    <string name="toman">تومان</string>
+    <string name="faclocko">&#xf017;</string>
+    <string name="fauser">&#xf007;</string>
+    <string name="fastar">&#xf005;</string>
+    <string name="txt_catch_condition">دریافتی</string>
+    <string name="daily">امروز</string>
+    <string name="weekly">هفتگی</string>
+    <string name="my_earn">درآمد من</string>
+    <string-array name="cargo_type_spinner">
+        <item>شکستنی</item>
+        <item>سنگین</item>
+    </string-array>
+    <string-array name="packing_type">
+        <item>یخچال</item>
+        <item>تلویزیون</item>
+    </string-array>
+
+
+
+    <string-array name="payment_type">
+        <item>نقدی</item>
+        <item>غیرنقدی</item>
+    </string-array>
+
+    <string-array name="calc_type">
+        <item>کیلومتری</item>
+        <item>ساعتی</item>
+    </string-array>
+    <string name="finalaccept">تایید نهایی</string>
+    <string name="cost">هزینه</string>
+    <string name="circleshape">&#xf10c;</string>
+    <string name="pinshape">&#xf041;</string>
+    <string name="Rial">تومان</string>
+    <string name="discription">توضیحات</string>
+    <string name="reciver_address">آدرس دریافت کننده را وارد کنید</string>
+    <string name="plaque">پلاک</string>
+    <string name="alley">کوچه</string>
+    <string name="name">نام</string>
+    <string name="nationalCode">کد ملی</string>
+    <string name="phoneNumber">شماره تلفن</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="email">پست الکترونیکی</string>
+    <string name="phonenum">موبایل</string>
+    <string name="aproximity_weight">وزن تقریبی</string>
+    <string name="expend_time">زمان صرف شده</string>
+    <string name="password">کلمه عبور</string>
+    <string name="finished_trip">سفرهای تمام شده</string>
+    <string name="google_plus">&#xf0d5;</string>
+    <string name="password1">کلمه عبور</string>
+    <string name="login">ورود</string>
+    <string name="forget_password">رمز خود را فراموش کرده اید ؟</string>
+    <string name="google_api_key"></string>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- icons-->
+
+
+
+</resources>

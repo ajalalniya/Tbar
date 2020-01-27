@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+            android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25" android:padding="10dp" >
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/txt_cach_money"
+                        android:text="@string/toman"
+                        android:id="@+id/myTextView3" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/txt_cach_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="20dp"
+
+                        android:text="69000" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_catch_condition"
+                        android:id="@+id/myTextView2"
+                        android:layout_below="@+id/txt_cach_money"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:padding="10dp">
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/trip_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="20dp"
+
+                        android:text="6 سفر" />
+
+
+                    <co.tara.tarabari.driver.myview.MyTextShape
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faclocko"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/trip_number"
+                        android:id="@+id/myTextShape" />
+
+                    <co.tara.tarabari.driver.myview.MyTextView
+                        android:id="@+id/myTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="8 ساعت روشن بودید"
+                        android:layout_alignBottom="@+id/myTextShape"
+                        android:layout_toLeftOf="@+id/myTextShape"
+                        android:layout_toStartOf="@+id/myTextShape" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ico_car" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>

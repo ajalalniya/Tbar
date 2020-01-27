@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">TBar</string>
+
+
+    <string name="register">ثبت نام</string>
+    <string name="login">ورود</string>
+
+
+    <string name="welcome">به برنامه خوش آمدید</string>
+    <string name="explan1">این یک متن خوش آمد گویی برای اپلیکیشن سویفت می باشد . این متن بصورت آزمایشی قرار داده شده و عوض می شود</string>
+    <string name="verify_explan">برای فعال سازی شماره خود، لطفا کد پنج رقمی ارسال شده را وارد کنید</string>
+    <string name="Reverify">ارسال دوباره کد</string>
+    <string name="anotherPhone">ثبت یک شماره دیگر</string>
+
+    <string name="google_api_key2"></string>
+
+    <!--shape-->
+    <string name="google_plus">&#xf0d5;</string>
+    <string name="circleshape">&#xf10c;</string>
+    <string name="pinshape">&#xf041;</string>
+  <!--  ////////////-->
+
+<!--    main & trip -->
+    <string name="finalaccept">تایید نهایی</string>
+    <string name="trip_choise">گزینه های سفر</string>
+    <string name="addDetaile">جزئیات و خدمات مورد نیاز را اضافه کنید</string>
+    <string name="ok">تایید</string>
+    <string name="stopTime">زمان توقف</string>
+    <string name="secondTripChoise">انتخاب مقصد دوم</string>
+    <string name="sweep">رفت و برگشت</string>
+    <string name="cost">هزینه</string>
+    <string name="Rial">تومان</string>
+    <string name="options">گزینه ها</string>
+    <string name="offcode">کد تخفیف</string>
+    <string name="startTrip">شروع سفر</string>
+    <string name="currentTrip">سفرهای جاری</string>
+<!--    //////////////////-->
+<!--    register & login & verify -->
+    <string name="name">نام</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="email">پست الکترونیکی</string>
+    <string name="phonenum">موبایل</string>
+    <string name="password">کلمه عبور</string>
+    <string name="refereCode">کد معرف</string>
+    <string name="verifyCode">کد فعالسازی</string>
+    <string name="verifyBtn">فعال سازی موبایل</string>
+    <string name="forget_password">رمز خود را فراموش کرده اید ؟</string>
+    <!--///////////////////////////////////////////////-->
+
+
+
+
+
+
+
+
+    <string name="plaque">پلاک</string>
+    <string name="nationalCode">کد ملی</string>
+    <string name="phoneNumber">شماره تلفن</string>
+    <string name="confirm">تایید</string>
+    <string name="reciver_address">آدرس دریافت کننده را وارد کنید</string>
+    <string name="activity1_name">اطلاعات تحویل گیرنده</string>
+    <string name="activity2_name">اطلاعات بار</string>
+    <string name="cargo_value">ارزش بار(به تومان)</string>
+    <string name="cargo_type">نوع بار</string>
+    <string name="insure_cargo">بیمه کردن بار</string>
+    <string name="discription">توضیحات</string>
+    <string name="aproximity_weight">وزن تقریبی</string>
+    <string name="add_pic">افزودن عکس</string>4
+    <string-array name="cargo_type_spinner">
+        <item>شکستنی</item>
+        <item>سنگین</item>
+    </string-array>
+    <string-array name="packing_type">
+        <item>یخچال</item>
+        <item>تلویزیون</item>
+    </string-array>
+
+    <string-array name="payment_type">
+        <item>نقدی</item>
+        <item>غیرنقدی</item>
+    </string-array>
+
+    <string-array name="calc_type">
+        <item>کیلومتری</item>
+        <item>ساعتی</item>
+    </string-array>
+    <string name="error_minimum_3">حداقل 3 حرف</string>
+    <string name="error_minimum_8">حداقل 8 عدد</string>
+    <string name="error_minimum_1">حداقل 1 رقم</string>
+    <string name="error_national_code">کد ورودی صحیح نیست</string>
+    <string name="error_invalid_char">فقط عدد</string>
+    <string name="error_maximum_4">حداکثر 4 رقم</string>
+    <string name="alley">کوچه</string>
+
+
+
+</resources>

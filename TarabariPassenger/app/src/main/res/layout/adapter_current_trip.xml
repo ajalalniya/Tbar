@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="275dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/colorPrimary">
+
+                <co.tara.tarabari.passenger.myview.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="سفر ارسالی"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myTextView10"
+                android:layout_toLeftOf="@+id/myTextView10"
+
+                android:text="1396/03/22"
+                android:textColor="#000000"
+
+                />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="16dp"
+                android:text="دوشنبه"
+                android:textColor="#000000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myTextView11"
+                android:layout_toEndOf="@+id/myTextView11"
+                android:layout_toRightOf="@+id/myTextView11"
+                android:text="ساعت"
+                android:textColor="#000000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/myTextView10"
+                android:layout_marginLeft="15dp"
+                android:text="18:40"
+                android:textColor="#000000" />
+
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/myTextView13"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="تحویل به:"
+                android:textColor="#000000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myTextView14"
+                android:layout_alignBottom="@+id/myTextView14"
+                android:layout_toLeftOf="@+id/myTextView14"
+                android:layout_toStartOf="@+id/myTextView14"
+                android:text="حکمت بیگ وردی"
+                android:textColor="#000000" />
+
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myTextView15"
+                android:layout_alignBottom="@+id/myTextView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:text="50 عدد تلویزیون 42اینچی"
+                android:textColor="#000000" />
+
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/myTextView14"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="راننده: "
+                android:textColor="@color/colorPrimary" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myTextView16"
+                android:layout_alignBottom="@+id/myTextView16"
+                android:layout_toLeftOf="@+id/myTextView16"
+                android:layout_toStartOf="@+id/myTextView16"
+                android:text="محمد موسوی"
+                android:textColor="@color/colorPrimary" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myTextView4"
+                android:layout_toEndOf="@+id/myTextView4"
+                android:layout_toRightOf="@+id/myTextView4"
+                android:text="وانت نیسان"
+                android:textColor="@color/colorPrimary" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/myTextView3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="43 j 637 - 33"
+                android:textColor="@color/colorPrimary" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/myTextView16"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="مبدا:"
+                android:textColor="@color/green" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myTextView12"
+                android:layout_alignBottom="@+id/myTextView12"
+                android:layout_toLeftOf="@+id/myTextView12"
+                android:layout_toStartOf="@+id/myTextView12"
+                android:text="تهران،میدان تیموری"
+                android:textColor="@color/green" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/myTextView12"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="مقصد: "
+                android:textColor="@color/blue" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myTextView17"
+                android:layout_alignBottom="@+id/myTextView17"
+
+                android:layout_toLeftOf="@+id/myTextView17"
+                android:layout_toStartOf="@+id/myTextView17"
+                android:text="تهران،شریعتی"
+                android:textColor="@color/blue" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myTextView18"
+                android:layout_toRightOf="@+id/myTextView18"
+                android:text="وضعیت: "
+                android:textColor="#000000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_above="@+id/myTextView24"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="درحال تحویل بار"
+                android:textColor="@color/green" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/myTextView24"
+                android:layout_toEndOf="@+id/myTextView24"
+                android:layout_toRightOf="@+id/myTextView24"
+                android:text="کد رهگیری:"
+                android:textColor="#000000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="t-345 44 22"
+                android:textColor="#000000" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

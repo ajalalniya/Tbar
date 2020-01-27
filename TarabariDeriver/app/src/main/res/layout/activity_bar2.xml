@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:theme="@style/AppTheme2">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.78"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:background="@color/gray"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:weightSum="6">
+
+            <co.tara.tarabari.driver.myview.MyTextView
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:text="@string/reciver_address"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:background="@drawable/ico_map"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:hint="@string/plaque"
+                android:id="@+id/plaque"
+                android:inputType="number"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:hint="@string/alley"
+                android:id="@+id/alley"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="horizontal">
+
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:hint="@string/family"
+                android:id="@+id/lastName"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="horizontal">
+
+            <co.tara.tarabari.driver.myview.MyEditText
+                android:hint="@string/name"
+                android:id="@+id/firstName"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+
+        <co.tara.tarabari.driver.myview.MyEditText
+            android:hint="@string/nationalCode"
+            android:id="@+id/nationalCode"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="14sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+
+        <co.tara.tarabari.driver.myview.MyEditText
+            android:hint="@string/phoneNumber"
+            android:id="@+id/phoneNumber"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="14sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3" />
+
+    <co.tara.tarabari.driver.myview.MyButton
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.78"
+        android:background="@drawable/welcome_register_btn"
+        android:text="مرحله ی بعد"
+        android:textColor="@color/gray"
+        android:textSize="20sp" />
+
+</LinearLayout>

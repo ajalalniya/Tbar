@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa000</color>
+    <color name="colorPrimaryDark">#d78d0e</color>
+    <color name="colorAccent">#394147</color>
+    <color name="google_plus">#DD4B39</color>
+    <color name="welcome_color">#FFA000</color>
+    <color name="register_btn">#263238</color>
+    <color name="txt_welcom">#424242</color>
+    <color name="hint_color">#BCBCBC</color>
+    <color name="circle_shape">#009688</color>
+    <color name="background">#f2f2f2</color>
+    <color name="dialog_card">#7d848c</color>
+    <color name="gray">#d8d9da</color>
+    <color name="pale_gray">#FFF2F2F2</color>
+    <color name="white">#ffffff</color>
+    <color name="orangestroke">#a0FE9f00</color>
+    <color name="graystroke">#E1E1E1</color>
+    <color name="orangegradiantstart">#FE9f00</color>
+    <color name="orangegradiantend">#FEBC00</color>
+    <color name="graygradiantstart">#FBFBFB</color>
+    <color name="graygradiantend">#E1E1E1</color>
+    <color name="green">#5ec62c</color>
+    <color name="blue">#03a9f3</color>
+    <color name="yellow">#fe9f00</color>
+</resources>

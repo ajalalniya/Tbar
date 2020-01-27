@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_webview.xml",
+        "source": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\res\\layout\\amu_webview.xml"
+    },
+    {
+        "merged": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_text_bubble.xml",
+        "source": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\res\\layout\\amu_text_bubble.xml"
+    },
+    {
+        "merged": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_info_window.xml",
+        "source": "E:\\WORK\\tarabari\\TarabariPassenger\\library\\res\\layout\\amu_info_window.xml"
+    }
+]

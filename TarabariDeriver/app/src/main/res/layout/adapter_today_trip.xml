@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:paddingTop="10dp">
+
+                        <co.tara.tarabari.driver.myview.MyTextView
+                            android:id="@+id/myTextView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="5dp"
+android:layout_alignParentTop="true"
+                            android:text="@string/toman" />
+
+                        <co.tara.tarabari.driver.myview.MyTextView
+                            android:id="@+id/txt_cach_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginBottom="20dp"
+                            android:layout_toRightOf="@id/myTextView3"
+                            android:text="69000" />
+
+                        <co.tara.tarabari.driver.myview.MyTextView
+                            android:id="@+id/myTextView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/txt_catch_condition" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:paddingTop="10dp">
+
+                        <co.tara.tarabari.driver.myview.MyTextView
+                            android:id="@+id/trip_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+
+                            android:layout_marginRight="5dp"
+
+                            android:text="تهران پارس، 52ام - سعادت آباد، بهزاد" />
+
+
+                        <co.tara.tarabari.driver.myview.MyTextShape
+                            android:id="@+id/myTextShape"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="@string/faclocko"
+                            android:textSize="20dp" />
+
+                        <co.tara.tarabari.driver.myview.MyTextView
+                            android:id="@+id/myTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignBottom="@+id/myTextShape"
+                            android:layout_toLeftOf="@+id/myTextShape"
+
+                            android:text="8 ساعت روشن بودید" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>

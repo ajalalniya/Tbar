@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+
+
+    android:layout_height="350dp"
+
+    android:padding="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+
+    android:background="#ffffff"    android:layoutDirection="ltr">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/btn_call"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"  android:layout_weight="0.4">
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="وجیه اله صدری رجبی"
+
+                android:layout_above="@+id/myTextView6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تیبا سفید"
+
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/myTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ایران 11- 96 ل 59"
+
+                android:layout_below="@+id/myTextView6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/ic_profile2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <co.tara.tarabari.passenger.myview.MyTextShape
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/pinshape"
+                android:id="@+id/myTextShape" />
+
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تاکسی شما تا 2 دقیقه دیگر میرسد"
+                android:id="@+id/myTextView8"
+               android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/myTextShape"
+            />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <ImageView
+                android:id="@+id/ico_options"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/ico_options2" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ico_options"
+                android:layout_centerHorizontal="true"
+                android:text=" گزینه ها" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_detail_of_trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_options"
+                android:layout_centerHorizontal="true"
+                android:text="جزییات سفر را وارد کنید" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <ImageView
+                android:id="@+id/ico_discard"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/ico_discount" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_discard_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ico_discard"
+                android:layout_centerHorizontal="true"
+                android:text="کد تخفیف" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_enter_discard_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_discard_code"
+                android:layout_centerHorizontal="true"
+                android:text="کد تخفیف را وارد کنید" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <ImageView
+                android:id="@+id/ico_peyment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/ico_peyment2" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_peyment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ico_peyment"
+                android:layout_centerHorizontal="true"
+                android:text="پرداخت" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:id="@+id/txt_hezar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_peyment"
+                android:layout_centerHorizontal="true"
+                android:text="110000" />
+
+            <co.tara.tarabari.passenger.myview.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txt_hezar"
+                android:layout_toLeftOf="@+id/txt_hezar"
+                android:text="@string/Rial" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <co.tara.tarabari.passenger.myview.MyButton
+                android:id="@+id/btn_ignore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/welcome_register_btn"
+                android:text="لغو سفر"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
