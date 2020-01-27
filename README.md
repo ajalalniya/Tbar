@@ -17,7 +17,7 @@ TBar-Passenger1             | TBar-Passenger2      | TBar-Passenger3
 ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-05-11.jpg)  |  ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-04-42.jpg)  | ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-04-53.jpg)
 
 
-TBar-Passenger4             | TBar-Passenger5       |   TBar-Passenger6
+TBar-Passenger4             | TBar-Passenger5       | TBar-Passenger6
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-04-57.jpg)  |  ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-05-01.jpg)  |
 ![](https://github.com/ajalalniya/Tbar/blob/master/photo_2020-01-27_15-04-31.jpg) 
